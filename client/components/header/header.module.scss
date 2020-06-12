@@ -1,0 +1,49 @@
+.headerContainer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    height: 40px;
+    background-color: #000;
+    z-index: 1000;
+
+    @media screen and (min-width: 768px) {
+        bottom: auto;
+        top: 0;
+        height: 60px;
+    }
+}
+
+.buttonContainer {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.buttonTabs {
+    border: none;
+    background: 0 0;
+    color: #ffffff;
+    font-size: 20px;
+    height: 40px;
+    padding: 0px 15px;
+    line-height: 40px;
+    vertical-align: middle;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 5px;
+        line-height: normal;
+    }
+}
+
+.buttonTabs.selected {
+    color: #F01755;
+}
+
+.buttonTxt {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}

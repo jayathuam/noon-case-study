@@ -1,0 +1,35 @@
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 60px;
+    }
+}
+
+/* Float four columns side by side */
+.row__column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+        float: left;
+        width: 30%;
+        padding: 0 0px 10px;
+        margin-left: 20px;
+    }
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.error {
+    color: red;
+    margin: 15px 15px;
+    font-size: 20px;
+}

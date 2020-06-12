@@ -1,0 +1,53 @@
+.card {
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    border-bottom: 1.5px solid #F0EFEF;
+}
+
+.card__img {
+    width: 100%;
+    height: auto;
+
+    @media screen and (min-width: 768px) {
+        width: 300px;
+    }
+}
+
+.card__title {
+    color: #177DF0;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.card__favBtn {
+    font-size: 20px;
+    border: none;
+    background: 0 0;
+    font-size: 25px;
+    height: 40px;
+    padding: 0px 10px;
+    position: absolute;
+    right: 5px;
+    color: #ffffff;
+
+    @media screen and (min-width: 768px) {
+        position: relative;
+        top: 45px;
+        left: 250px;
+    }
+}
+
+.card__favBtn.fav {
+    color: #EE1453;
+}
+
+.car__year {
+    color: #A6AEB8;
+    font-size: 12px;
+    margin: 10px 15px;
+}
+
+.card__container {
+    padding: 2px 0px;
+}

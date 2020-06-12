@@ -1,0 +1,14 @@
+{
+    "name": "noon-case-study",
+    "version": "1.0.0",
+    "description": "",    
+    "scripts": {
+      "test": "jest",
+      "install_server_dependencies": "cd server && npm install",
+      "install_client_dependencies": "cd client && npm install",
+      "setup": "npm run install_server_dependencies && npm run install_client_dependencies",
+      "start_server": "cd server && node index.js",
+      "start_client": "cd client && npm run dev"     
+    },
+    "author": "jayathu amarasinghe"        
+  }
