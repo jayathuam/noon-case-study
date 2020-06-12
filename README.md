@@ -38,8 +38,6 @@ Open terminal in solution root
 ```sh
 $ npm run setup (install dependencies)
 ```
-Note: - Backend configurations can be changed using .env file inside the server folder
-
 
 Run Server
 ```sh
